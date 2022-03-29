@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.navbar{
+    background-color: #FCA311;
+    height: 60px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    border: white solid 1px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+.welcome-section{
+    color: white;
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: #FCA311;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.projects-title{
+    color: white;
+    font-weight: 900;
+}
+
+.projects{
+    background-color: #14213D;
+    padding: 75px;
+    text-align: center;
+    
+}
+
+.project-grid{
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.project-tile{
+    margin: 10px;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    margin: auto;
+}
+
+.project-link{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    background-color: black;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+}
+
+.contact{
+    background-color: #14213D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 25px;
+    color: white;
+}
+
+.title{
+    color: #FCA311;
+    font-weight: 800;
+    text-align: center;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.btn{
+    background-color: #FCA311;
+    color: black;
+    padding: 10px 15px;
+    border: #FCA311 3px solid;
+    border-radius: 10px;
+}
+
+.left-align{
+    text-align: left;
+}
+
+#profile-link-div{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
